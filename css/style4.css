@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+    font-family: cursive;
+    margin: 0px;
+    padding: 20px;
+}
+
+header{
+ background-color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  display: flex;
+}
+
+header .logo h1{
+    color: white;
+    font-size: 40px;
+}
+
+nav{
+    margin-left: auto;
+    margin-right: 20px;
+    height: max-content;
+    border-radius: 20px;
+    width: 70%;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav ul li{
+  margin: 0 15px;
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+}
+
+main {
+    direction: rtl;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+main.hero{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main .hero h2{
+    font-size: 70px;
+    color: orange;
+    margin-bottom: 20px;
+}
+main .hero i{
+    font-size: 70px;
+    color: black;
+}
+
+main .hero p{
+    font-size: 20px;
+    color: black;
+}
+
+section{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+ box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+main section h3 {
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+
+
